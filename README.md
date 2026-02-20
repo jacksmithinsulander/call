@@ -3,6 +3,7 @@
 Category
 Developer Tooling
 Details
+
 Stylus aims to interoperate with existing Solidity contracts, but today some common interface patterns, especially overloaded functions, inherited interfaces, and tuple or struct shaped ABI types, can be difficult or impossible to express cleanly with current Stylus interface generation approaches, leading to failed builds or error prone manual wiring. SIPB is critical because it makes this interoperability repeatable and safer in real repositories. It ships a drop in stylus interfaces crate covering ERC20, ERC721, ERC1155, and IERC165, plus a stylus bindgen CLI and a CI preflight that generate selector exact, overload safe Rust bindings from ABI JSON and fail builds when required bindings are missing or out of date.
 What innovation or value will your project bring to Arbitrum? What previously unaddressed problems is it solving? Is the project introducing genuinely new mechanisms.
 Innovation and value SIPB brings to Arbitrum
